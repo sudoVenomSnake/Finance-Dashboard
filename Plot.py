@@ -14,7 +14,7 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-@st.cache_data
+# @st.cache_data
 def get_df():
     x1 = yf.download(tickers = "^NSEI", interval = "1m", period = "1d")
     x2 = yf.download(tickers = "^INDIAVIX", interval = "1m", period = "1d")
