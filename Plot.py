@@ -39,7 +39,7 @@ if company:
         )
         fig.update_yaxes(title_text = company)
         fig.update_yaxes(title_text = str(moving_average) + " MA")
-    fig.update_xaxes(title_text = "Date & Time")
+    fig.update_xaxes(title_text = "Date")
     fig.update_layout(
         title_text = company
     )
